@@ -1,23 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tangmore</title>
-
-    <!--title-->
-    <link rel="shortcut icon" href="./images/favicon.jpg"/>
-
-    <!--lib css-->
-    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/jquery.fullPage.css"/>
+    <title>前端工程师简历</title>
+    <meta name="description" content="本人英文名Lea，是一名前端工程师,正在朝着自己的目标不断奋进，
+    对我有意向的公司和猎头可以QQ联系我或者给我发邮件，谢谢！">
+    <meta name="keywords" content="Lea简历，前端工程师，求职前端，前端博客" />
+    <link rel="shortcut icon" href="./images/favicon.jpg" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/iconfont.css">
     <link rel="stylesheet" href="css/animate.css">
-
-    <!--personal css-->
-    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/index.css" />
 </head>
-<body>
-    
+
+
+
+<body id="page-top">
+    <!-- Header -->
+    <header class="intro">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+             <!-- title部分 不隐藏部分 -->
+            <a href="#" class="navbar-brand mt-2"><i class="iconfont icon-biaoqing"></i> 前端工程师</a>
+            <!-- 小屏幕下右侧按钮 -->
+            <button class="navbar-toggler mt-2" type="button" 
+            data-toggle="collapse" data-target="#content">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- 下拉部分，大屏幕平铺，小屏幕隐藏 -->
+            <div id="content" class="collapse navbar-collapse mt-2">
+                <ul class="navbar-nav">
+                    <li class="nav-item "><a href="#basic" class="nav-link">基本资料</a></li>
+                    <li class="nav-item"><a href="#works" class="nav-link">项目经验</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">专业技能</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">工作经历</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">联系方式</a></li>
+                </ul>
+            </div>
+    </nav>
+
+        <div class="intro-body text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>简历<span class="brand-heading">-前端工程师</span></h1>
+                        <p class="intro-text mb-4">喜欢技术，热爱挑战</p>
+                        <a href="#services" class="page-scroll border-secondary m-auto">
+                            <i class="iconfont icon-xiangxiajiantou animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div id="basic"></div>
+        <div id="works"></div>
+        <div id="skills"></div>
+        <div id="experience"></div>
+        <div id="contact"></div>
+    </section>
+
+    <footer></footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
