@@ -2,6 +2,14 @@ body,html{
     width: 100% !important;
 	height: 100% !important;
 }
+.bg-common{
+    background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%, #cccccc 100%); /* W3C */
+}
 /* nav */
  nav.bg-dark{
     background:transparent  !important;
@@ -92,17 +100,14 @@ header .intro-body a:hover i.animated{
     }
 }
 
-
 /* section */
-
+/* basic */
 #basic {
-	padding: 80px 0;
-	background:#fff;
+	padding: 100px 0;
 }
 #basic h1{
    color: #000;
 }
-/* basic */
 #basic i.iconfont {
 	font-size: 50px;
 	width: 140px;
@@ -120,7 +125,6 @@ header .intro-body a:hover i.animated{
 #basic .col-sm-3:hover > i.iconfont {
     color: #f00;
 }
-
 
 /* works */
 #works{
@@ -180,21 +184,27 @@ header .intro-body a:hover i.animated{
     display: block;
 }
 
-
 /* skills */
 #skills{
-    padding-bottom: 400px;
     border: 1px solid #ff0;
 }
+#skills .title{
+    font-size: 1.4rem;
+}
+#skills .title i{
+    font-size: 1.4rem;
+    color: #fbb;
+}
+
 /* evaluation */
 #evaluation{
-    padding-bottom: 400px;
+    /* padding-bottom: 400px; */
     border: 1px solid #ff0;
 }
 
 /*contact  */
 #contact{
-    padding-bottom: 400px;
+    /* padding-bottom: 400px; */
     border: 1px solid #ff0;
 }
 /* footer */

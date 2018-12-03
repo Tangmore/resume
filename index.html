@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/iconfont.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/index.css" />
 </head>
 
@@ -56,12 +57,12 @@
 
     <section class="container-fluid text-center p-0">
         <!-- 个人资料 -->
-        <div id="basic">
-            <h1 class="mb-4">基本资料</h1>
-            <div class="row">
+        <div id="basic" class="bg-common">
+            <h1 class=" pt-4 pb-5">基本资料</h1>
+            <div class="row pb-5">
                 <div class="col-sm-3 col-6">
                     <i class="iconfont icon-basic"></i>
-                    <h4 class="mt-4"><strong>个人信息</strong></h4>
+                    <h4 class="mt-5"><strong>个人信息</strong></h4>
                     <p>
                         英文名: Lea &nbsp;性别：女</br>
                         年龄: 21岁 籍贯：重庆
@@ -69,7 +70,7 @@
                 </div>
                 <div class="col-sm-3 col-6">
                     <i class="iconfont icon-shu"></i>
-                    <h4 class="mt-4"><strong>专业学历</strong></h4>
+                    <h4 class="mt-5"><strong>专业学历</strong></h4>
                     <p>
                         专业：计算机科学与技术</br>
                         学历：大学本科</br>
@@ -77,24 +78,25 @@
                 </div>
                 <div class="col-sm-3 col-6">
                     <i class="iconfont icon-xuexiao1"></i>
-                    <h4 class="mt-4"><strong>毕业学校</strong></h4>
+                    <h4 class="mt-5"><strong>毕业学校</strong></h4>
                     <p>
                         毕业学校：四川师范大学</br>
                         学习技能：编程
                     </p>
                 </div>
                 <div class="col-sm-3 col-6">
-                    <i class="iconfont icon-shouji"></i>
-                    <h4 class="mt-4"><strong>联系方式</strong></h4>
+                    <i class="iconfont icon-shouji1"></i>
+                    <h4 class="mt-5"><strong>联系方式</strong></h4>
                     <p>QQ：210446279</br>
                         邮箱：tangmore@163.com</p>
                 </div>
             </div>
         </div>
+    </div>
 
         <!-- 项目经验 -->
-        <div id="works" class="mt-3 container-fluid">
-            <h1 class="mb-4 pt-5">项目经验</h1>
+        <div id="works" class="container-fluid pt-5">
+            <h1 class="mb-5  pt-5">项目经验</h1>
             <p>主要涉及电商，金融，家装领域，包括PC端，手机端，微信端，移动APP端等等，主要技术是HTML+CSS+JS</p>
             <div class="categories mb-5">
                 <span class="selected ">所有</span>|
@@ -104,7 +106,7 @@
             </div>
             <!-- contentBox -->
             <div class="contentBox content">
-                <div class="ind">
+                <div class="">
                     <div class="container">
                         <div class="row">
                             <div class="col-6 col-sm-3 web position-relative mb-4">
@@ -135,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="ind hide ">
+                <div class=" hide ">
                     <div class="container ">
                         <div class=" text-center row">
                             <div class="col-6 col-md-3 col-lg-3 web position-relative mb-4">
@@ -150,7 +152,7 @@
                     </div>
                 </div>
 
-                <div class="ind hide">
+                <div class=" hide">
                     <div class="container ">
                         <div class="text-center row">
                             <div class="col-6 col-md-3 col-lg-3 web position-relative mb-4">
@@ -170,7 +172,7 @@
                     </div>
                 </div>
 
-                <div class="ind hide">
+                <div class=" hide">
                     <div class="container ">
                         <div class="text-center row">
                             <div class="col-6 col-md-3 col-lg-3 web position-relative mb-4">
@@ -186,28 +188,67 @@
         </div>
        
         <!-- 专业技能 -->
-        <div id="skills">
-            <h1 class="mb-4 mt-5">专业技能</h1>
-            <div class="row">
-                <div class="col-sm-3 col-6">
+        <div id="skills" class="bg-common pb-5">
+            <h1 class=" mt-5 pt-5 pb-5">专业技能</h1>
+            <div class="container pb-5">
+                <div class="row">
+                <div class="col-sm-4 col-12">  
+                    <img src="images/bg19.png" alt="" class="w-100">
                 </div>
-                <div class="col-sm-3 col-6">
+                <div class="col-sm-8 col-12 text-left">
+                        <div class="">
+                            <p class="title"><i class="iconfont icon-pc pr-2"></i>PC端</p>
+                            <p>熟练使用HTML/CSS技术，精通Javascript/jquery编程,能够熟练使用vuejs,angularjs，
+                                reactjs等前端框架进行模块开发，熟练的使用grunt，gulp等前端工具，
+                                了解less，sass等前端新技术</p>
+
+                            <p class="title"><i class="iconfont icon-shouji1 pr-2"></i>移动端</p>
+                            <p>熟练使用zepto.js，Frozen ui，Amaze ui等移动框架进行移动页面的开发，
+                                熟练使用threejs等js引擎进行3d效果和H5游戏的开发.</p>
+   
+                            <p class="title"><i class="iconfont icon-qita pr-2"></i>其它</p>
+                            <p>懂网站性能优化，懂Nodejs,.net等后台语言开发.</p>
                 </div>
             </div>
+                
+            </div>
+        </div>
         </div>
         <!-- 自我评价 -->
         <div id="evaluation">
-            <h1 class="mb-4 mt-5">自我评价</h1>
+            <h1 class="mt-5 pt-5 pb-5">自我评价</h1>
             <div class="row">
-                <div class="col-sm-3 col-6">
-                </div>
-                <div class="col-sm-3 col-6">
-                </div>
+                    <div id="testimonials" class="text-center">
+                        <div class="container">
+                              <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                  <div id="testimonial" class="owl-carousel owl-theme">
+                                    <div class="item">       
+                                      <p>
+                                      热爱学习,良好的团队合作精神，能迅速融入新的团队。</br>易和人相处，拥有良好的亲和力。
+                                      </p>
+                                    </div>
+                                    <div class="item">
+                                      <p>
+                                      有强烈的责任感，工作踏实，性格开朗乐观，积极上进，吃苦耐劳。</br>能在较大的压力下保持良好的工作状态，善于自我调节。
+                                      </p>
+                                    </div>
+                                    <div class="item">
+                                      <p>
+                                      非常热爱编程，喜欢钻研新的技术，喜欢接受各种不同的挑战。</br>具有很强的自学能力和良好的学习方法。
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
             </div>
         </div>
         <!-- 联系方式 -->
-        <div id="contact">
-            <h1 class="mb-4 mt-5">联系方式</h1>
+        <div id="contact" class="">
+            <h1 class="mt-5 pt-5 pb-5">联系方式</h1>
             <div class="row">
                 <div class="col-sm-3 col-6">
                 </div>
@@ -216,15 +257,15 @@
             </div>
         </div>
     </section>
-
      
     <footer>   
-        <div class='snow'>
+        <div class='snow bg-common"'>
               <div class="snowTree"></div>
          </div>
     </footer>
     <script src="js/jquery.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/owl.carousel.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 
