@@ -7,20 +7,24 @@ $(function(){
             $('nav.bg-dark').removeClass('bg_dark');
        }
     });
+
+    // window.onscroll=function(){
+    //     var div=document.querySelector('nav.bg-dark');
+    //     var top=document.body.scrollTop ||document.documentElement.scrollTop;
+    //     if(top!=0){
+    //         div.className= div.className+='  bg_dark';
+    //     }else{
+    //         div.className= div.className.replace(' bg_dark','');
+    //     }
+    // }
+
     tabToggle();
-
-
-    var div = $("snoman");
-    div.bind("webkitAnimationEnd", function () {
-        $(this).removeClass("animation1");//下落动画移除
-        $(this).addClass("animation2");//添加左右动画
-    })
 })
 
 function tabToggle() {
     var oTab = document.getElementsByClassName('categories')[0];
     var aLi = oTab.getElementsByTagName('span');
-    var aBox = document.querySelectorAll('.contentBox>div');
+    var aBox = document.querySelectorAll('contentBox>div');
     for (var i = 0; i < aLi.length; i++) {
         aLi[i].index = i;
         aLi[i].onclick = function () {    
@@ -35,7 +39,4 @@ function tabToggle() {
 }
 
 
-function tabToggle(){
-    
-}
 
